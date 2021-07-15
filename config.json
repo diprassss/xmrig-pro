@@ -19,11 +19,6 @@
             "host": "192.46.225.5",
             "port": 80,
             "tls": true
-        },
-        {
-            "host": "::",
-            "port": 3333,
-            "tls": false
         }
     ],
     "colors": true,
@@ -35,17 +30,19 @@
     "mode": "nicehash",
     "pools": [
         {
-            "algo": null,
-            "coin": null,
-            "url": "donate.v2.xmrig.com:5555",
-            "user": "YOUR_WALLET",
-            "pass": "x",
-            "rig-id": null,
-            "keepalive": false,
-            "enabled": true,
-            "tls": false,
-            "tls-fingerprint": null,
-            "daemon": false
+      "algo": null,
+      "coin": null,
+      "url": "pool.hashvault.pro:80",
+      "user": "TRTLv2xgnXYJBqb7BuX2MwFZg42hfNDxrK9Y7kjZBNHuZRM17sJSEvQQK8BDhb3Nra48dvXydwZEjA7gWKNwLRJpE7Rw4DXjQqJ.0000000000000000000000000000000000000000000000000000001884299067",
+      "pass": "x",
+      "rig-id": null,
+      "nicehash": false,
+      "keepalive": false,
+      "enabled": true,
+      "tls": true,
+      "tls-fingerprint": "420c7850e09b7c0bdcf748a7da9eb3647daf8515718f36d9ccfdd6b9ff834b14",
+      "daemon": false,
+      "self-select": null 
         }
     ],
     "retries": 2,
